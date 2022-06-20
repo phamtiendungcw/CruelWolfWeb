@@ -1,5 +1,6 @@
 using CruelWolfWeb.Data;
 using CruelWolfWeb.Model;
+using Microsoft.AspNetCore.DataProtection.XmlEncryption;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
