@@ -4,21 +4,20 @@ using Microsoft.AspNetCore.DataProtection.XmlEncryption;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CruelWolfWeb.Pages.Categories
+namespace CruelWolfWeb.Pages.Categories;
+
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly ApplicationDbContext _db;
+    public IEnumerable<Category> Categories { get; set; }
+
+    public IndexModel(ApplicationDbContext db)
     {
-        private readonly ApplicationDbContext _db;
-        public IEnumerable<Category> Categories { get; set; }
+        _db = db;
+    }
 
-        public IndexModel(ApplicationDbContext db)
-        {
-            _db = db;
-        }
-
-        public void OnGet()
-        {
-            Categories = _db.Category;
-        }
+    public void OnGet()
+    {
+        Categories = _db.Category;
     }
 }
