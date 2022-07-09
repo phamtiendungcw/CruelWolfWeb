@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\css\bootswatch_cyborg.css" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\js\bootstrap.bundle.min.js" />
-    <None Include="wwwroot\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
   </ItemGroup>
 
   <ItemGroup>
