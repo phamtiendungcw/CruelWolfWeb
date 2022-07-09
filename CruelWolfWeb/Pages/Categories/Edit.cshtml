@@ -2,6 +2,7 @@
 @model CruelWolfWeb.Pages.Categories.EditModel
 
 <form method="post">
+    <input hidden asp-for="Category.Id" />
     <div class="border p-3 mt-4">
         <div class="row pb-2">
             <h2 class="text-primary p-lg-3 ">Update Category</h2>
@@ -17,7 +18,8 @@
             <input asp-for="Category.DisplayOrder" class="form-control" />
             <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
         </div>
-        <button type="submit" class="btn btn-primary" style="width:150px;">Update</button>
+        <button type="submit" class="btn btn-primary" style="width: 150px;">Update</button>
+        <a asp-page="Index" class="btn btn-secondary" style="width: 150px;">Back to List</a>
         <div asp-validation-summary="All"></div>
     </div>
     @*Nếu chỉ có một Page partial thì có thể thêm luôn trong Form*@

@@ -18,6 +18,7 @@
             <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary" style="width:150px;">Create</button>
+        <a asp-page="Index" class="btn btn-secondary" style="width: 150px;">Back to List</a>
         <div asp-validation-summary="All"></div>
     </div>
     @*Nếu chỉ có một Page partial thì có thể thêm luôn trong Form*@
@@ -26,8 +27,8 @@
 
 @*Nếu có nhiều page partial thì sử dụng section Script*@
 @section Scripts
-{
+    {
     @{
         <partial name="Shared/_ValidationScriptsPartial" />
     }
-}
+    }
