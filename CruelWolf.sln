@@ -20,6 +20,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_TranslatorConfiguration = {"Azure":"{\"AutoDetectHtml\":true,\"MaxCharactersPerMinute\":33300,\"AuthenticationKey\":null,\"Region\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Baidu":"{\"AppId\":null,\"SecretKey\":null,\"ApiUrl\":null,\"Domain\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","DeepL":"{\"ApiKey\":null,\"ApiUrl\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Google":"{\"ApiKey\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MSTerm":"{\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MyMemory":"{\"Key\":null,\"Mail\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}"}
 		SolutionGuid = {7C8316CD-C7F8-4DBB-9796-2C47F39A74A3}
 	EndGlobalSection
 EndGlobal
