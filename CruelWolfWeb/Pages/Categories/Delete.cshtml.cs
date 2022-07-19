@@ -1,4 +1,4 @@
-using CruelWolfWeb.Data;
+﻿using CruelWolfWeb.Data;
 using CruelWolfWeb.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -18,7 +18,7 @@ public class DeleteModel : PageModel
 
     public void OnGet(int id)
     {
-        Category = _db.Category.Find(id);
+        Category = _db.Category.Find(id) ?? throw new InvalidOperationException();
         //Category = _db.Category.FirstOrDefault(u => u.Id == id);
         //Category = _db.Category.SingleOrDefault(u => u.Id == id);
         //Category = _db.Category.Where(u => u.Id == id).FirstOrDefault();
@@ -26,7 +26,7 @@ public class DeleteModel : PageModel
 
     public async Task<IActionResult> OnPost()
     {
-        var categoryFromDb = _db.Category.Find(Category.Id);
+        var categoryFromDb = await _db.Category.FindAsync(Category.Id);
         if (categoryFromDb != null)
         {
             _db.Category.Remove(categoryFromDb);
