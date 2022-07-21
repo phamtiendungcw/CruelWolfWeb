@@ -1,23 +1,6 @@
 ﻿@page
 @model CruelWolfWeb.Pages.Categories.IndexModel
 
-@if (TempData["success"] != null)
-{
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/js/toastr.min.js"></script>
-    <script type="text/javascript">
-        toastr.success('@TempData["success"]');
-    </script>
-}
-@if (TempData["error"] != null)
-{
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/js/toastr.min.js"></script>
-    <script type="text/javascript">
-        toastr.error('@TempData["error"]');
-    </script>
-}
-
 <div class="container p-3">
     <div class="row pt-4">
         <div class="col-6">
