@@ -1,5 +1,5 @@
-﻿using CruelWolfWeb.Data;
-using CruelWolfWeb.Model;
+﻿using CruelWolf.DataAccess.Data;
+using CruelWolf.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 

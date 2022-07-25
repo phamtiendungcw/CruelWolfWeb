@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace CruelWolfWeb.Model;
+namespace CruelWolf.Models;
 
 public class Category
 {
@@ -10,6 +10,6 @@ public class Category
     [Required]
     public string Name { get; set; }
     [Display(Name = "Display Order")]
-    [Range(1, 100, ErrorMessage = "DisplayOrder must be in range of 1 to 100!!!")]
+    [Range(1, 100, ErrorMessage = "DisplayOrder must be in range of 1 to 100 only!!!")]
     public int DisplayOrder { get; set; }
 }

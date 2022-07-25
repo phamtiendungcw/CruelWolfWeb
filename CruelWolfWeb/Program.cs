@@ -1,4 +1,4 @@
-using CruelWolfWeb.Data;
+using CruelWolf.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

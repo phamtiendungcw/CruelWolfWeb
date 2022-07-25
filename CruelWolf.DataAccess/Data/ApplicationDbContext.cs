@@ -1,7 +1,7 @@
-﻿using CruelWolfWeb.Model;
+﻿using CruelWolf.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CruelWolfWeb.Data
+namespace CruelWolf.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {
