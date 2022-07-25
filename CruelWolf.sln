@@ -5,6 +5,12 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CruelWolfWeb", "CruelWolfWeb\CruelWolfWeb.csproj", "{8EBA403E-F027-408F-8940-86C35CF5005F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CruelWolf.DataAccess", "CruelWolf.DataAccess\CruelWolf.DataAccess.csproj", "{F0DC395D-9C96-4349-A093-FCEB70B40A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CruelWolf.Utility", "CruelWolf.Utility\CruelWolf.Utility.csproj", "{5889FFCA-561E-4F0F-9514-1CA956CC4FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CruelWolf.Models", "CruelWolf.Models\CruelWolf.Models.csproj", "{53BF4AE6-ED9B-47FE-9F9D-69D134CBA6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,12 +21,24 @@ Global
 		{8EBA403E-F027-408F-8940-86C35CF5005F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EBA403E-F027-408F-8940-86C35CF5005F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EBA403E-F027-408F-8940-86C35CF5005F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DC395D-9C96-4349-A093-FCEB70B40A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DC395D-9C96-4349-A093-FCEB70B40A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DC395D-9C96-4349-A093-FCEB70B40A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DC395D-9C96-4349-A093-FCEB70B40A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5889FFCA-561E-4F0F-9514-1CA956CC4FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5889FFCA-561E-4F0F-9514-1CA956CC4FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5889FFCA-561E-4F0F-9514-1CA956CC4FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5889FFCA-561E-4F0F-9514-1CA956CC4FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BF4AE6-ED9B-47FE-9F9D-69D134CBA6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BF4AE6-ED9B-47FE-9F9D-69D134CBA6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BF4AE6-ED9B-47FE-9F9D-69D134CBA6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BF4AE6-ED9B-47FE-9F9D-69D134CBA6E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_TranslatorConfiguration = {"Azure":"{\"AutoDetectHtml\":true,\"MaxCharactersPerMinute\":33300,\"AuthenticationKey\":null,\"Region\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Baidu":"{\"AppId\":null,\"SecretKey\":null,\"ApiUrl\":null,\"Domain\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","DeepL":"{\"ApiKey\":null,\"ApiUrl\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Google":"{\"ApiKey\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MSTerm":"{\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MyMemory":"{\"Key\":null,\"Mail\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}"}
 		SolutionGuid = {7C8316CD-C7F8-4DBB-9796-2C47F39A74A3}
+		RESX_TranslatorConfiguration = {"Azure":"{\"AutoDetectHtml\":true,\"MaxCharactersPerMinute\":33300,\"AuthenticationKey\":null,\"Region\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Baidu":"{\"AppId\":null,\"SecretKey\":null,\"ApiUrl\":null,\"Domain\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","DeepL":"{\"ApiKey\":null,\"ApiUrl\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","Google":"{\"ApiKey\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MSTerm":"{\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}","MyMemory":"{\"Key\":null,\"Mail\":null,\"IsEnabled\":true,\"SaveCredentials\":false,\"Ranking\":1.0}"}
 	EndGlobalSection
 EndGlobal
